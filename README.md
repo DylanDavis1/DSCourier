@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/48dfecb3-0bff-4a11-948b-79849ad9a3c3
 
 
 ## Blog
-Full write-up: https://yourbloglink.com
+Full write-up: [Read the blog](https://eclipsesec.com/posts/DSCourier/)
 
 ### Build & Release
 - `Releases` contains the compiled DSCourier binary and supporting files for execution on a target system.
