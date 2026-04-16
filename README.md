@@ -11,9 +11,12 @@ This technique has has bypassed CrowdStrike Falcon, Microsoft Defender for Endpo
 https://github.com/user-attachments/assets/48dfecb3-0bff-4a11-948b-79849ad9a3c3
 
 
-
 ## Blog
 Full write-up: https://yourbloglink.com
+
+### Build & Release
+- `Releases` contains the compiled DSCourier binary and supporting files for execution on a target system.
+- `build.ps1` automates the build process, compiling the project and preparing binary.
 
 ## Requirements
 Dev machine (to build DSCourier from source):
