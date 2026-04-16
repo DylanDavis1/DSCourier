@@ -9,7 +9,7 @@ This technique has has bypassed CrowdStrike Falcon, Microsoft Defender for Endpo
 
 ## Demo Videos
 <p align="center">
-  <img src="./demo/CrowdStrike_Bypass.gif" width="100%">
+  <video src="./demo/CrowdStrike_Bypass.mp4" width="100%" controls autoplay loop muted></video>
 </p>
 
 ## Blog
