@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>DSCourier</AssemblyName>
+    <RootNamespace>DSCourier</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platform>x64</Platform>
+    <DebugType>none</DebugType>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <RollForward>LatestMajor</RollForward>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="WindowsPackageManager Interop">
+      <HintPath>C:\Users\Developer\Desktop\DSCourier-main\DSCourier\WinGet-API-from-CSharp\WindowsPackageManager Interop\bin\x64\Debug\net8.0-windows10.0.22621.0\WindowsPackageManager Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.1.1" />
+  </ItemGroup>
+</Project>
