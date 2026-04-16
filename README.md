@@ -8,8 +8,9 @@ DSCourier was built primarily from a research topic and should be viewed as a pr
 This technique has has bypassed CrowdStrike Falcon, Microsoft Defender for Endpoint (MDE) and Elastic Security EDR.
 
 ## Demo Videos
-[![CrowdStrike Bypass Demo](./demo/CrowdStrike_Bypass.gif)](./demo/CrowdStrike_Bypass.mp4)
-
+<p align="center">
+  <img src="./demi/CrowdStrike_Bypass.gif" width="100%">
+</p>
 
 ## Blog
 Full write-up: [Read the blog](https://eclipsesec.com/posts/DSCourier/)
