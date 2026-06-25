@@ -7,6 +7,9 @@ DSCourier was built primarily from a research topic and should be viewed as a pr
 
 This technique has bypassed multiple enteprise EDR solutions. 
 
+## Blog Post
+[dylansec.com/DSCourier](https://dylansec.com/DSCourier/)
+
 ## Build & Release
 - `Releases` contains the compiled DSCourier binary and supporting files for execution on a target system.
 - `build.ps1` automates the build process, compiling the project and preparing binary.
