@@ -5,13 +5,7 @@ DSCourier is a proof-of-concept that uses the WinGet Configuration COM API to ap
 
 DSCourier was built primarily from a research topic and should be viewed as a proof-of-concept rather than a polished or complete tool. Much of its value comes from operators modifying, extending, and experimenting with it themselves, including creating their own configuration files.
 
-This technique has has bypassed CrowdStrike Falcon, Microsoft Defender for Endpoint (MDE) and Elastic Security EDR.
-
-## Demo Videos
-<video src="https://github.com/user-attachments/assets/61d29ff1-8c91-46dd-9e95-4026d8e76622" controls muted loop width="100%"></video>
-
-## Blog
-Full write-up: [Read the blog](https://eclipsesec.com/posts/DSCourier/)
+This technique has has bypassed multiple enteprise EDR solutions. 
 
 ## Build & Release
 - `Releases` contains the compiled DSCourier binary and supporting files for execution on a target system.
