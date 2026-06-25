@@ -5,7 +5,7 @@ DSCourier is a proof-of-concept that uses the WinGet Configuration COM API to ap
 
 DSCourier was built primarily from a research topic and should be viewed as a proof-of-concept rather than a polished or complete tool. Much of its value comes from operators modifying, extending, and experimenting with it themselves, including creating their own configuration files, this research project was out of curiousity and fun and should not be used maliciously.
 
-This technique has has bypassed multiple enteprise EDR solutions. 
+This technique has bypassed multiple enteprise EDR solutions. 
 
 ## Build & Release
 - `Releases` contains the compiled DSCourier binary and supporting files for execution on a target system.
